@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 300px;
+    height: 300px;
+    margin: 50px 0 0 50px;
+    padding-top: 10px;
+}
+
+li {
+    list-style-type: none;
+    width: 200px;
+    margin: 2px;
+}
+
+input {
+    font-size: 12px;
+    background-color:aliceblue;
+    font-family: Arial;
+    height: 25px;
+    width: 195px;
+    text-transform: capitalize;    
+    border-radius: 5px;
+    padding-left: 5px;
+    line-height: 20px;
+    border: 1px solid #000;
+    box-shadow: 1px 0px 2px 1px #6c6c6c;
+
+}
+
+textarea {
+    font-size: 12px;
+    background-color:aliceblue;
+    font-family: Arial;
+    width: 195px;
+    height: 120px;
+    border-radius: 5px;
+    padding-left: 5px;
+    line-height: 20px;
+    border: 1px solid #000;
+    box-shadow: 1px 0px 2px 1px #6c6c6c;
+}
+
+input:focus {
+    background-color: beige;
+}
+
+.extra-phone {
+    height: 0;
+    margin: 0;
+}
+
+
+.extra-phone-list li {
+    margin: 2px;
+}
+
+button {
+    border: 1px solid #000;
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 2px 1px #6c6c6c;
+    position: relative;
+    left: 205px;
+    bottom: 29px;
+    background-color:aliceblue;
+}
+
+.add-field {
+    background-color: lightgreen;
+}
+
+.remove-field {
+    background-color: lightcoral;
+}
+
+.submit-button {
+    width: 95px;
+    background-color: lightgreen;
+}
+
+.reset-button {
+    width: 95px;
+    background-color: lightcoral;
+    float: right;
+}
+
+button:hover, .submit-button:hover, .reset-button:hover {
+    box-shadow: 1px 0px 5px 1px #6c6c6c;
+}
+
+button:active, .submit-button:active, .reset-button:active {
+    box-shadow: 1px 0px 2px 1px #6c6c6c;
+    background-color:beige;
+}
